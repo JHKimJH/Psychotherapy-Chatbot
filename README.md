@@ -15,11 +15,11 @@ Narrative therapy is a method of therapy that separates a person from their prob
 
 
 ## Result Screenshot
-<img src = "file:///C:/Users/janek/Pictures/%EC%9D%B4%EC%95%BC%EA%B8%B0%EC%B9%98%EB%A3%8C%20%EC%BA%A1%EC%B2%981.jpg" width="35%"/><img src = "https://user-images.githubusercontent.com/75755156/116002614-96e50100-a635-11eb-9956-fa025245997b.png" width="35%"/>
-<img src = "file:///C:/Users/janek/Pictures/%EC%9D%B4%EC%95%BC%EA%B8%B0%EC%B9%98%EB%A3%8C%20%EC%BA%A1%EC%B2%982.jpg" width="35%"/><img src = "https://user-images.githubusercontent.com/75755156/116002659-c0059180-a635-11eb-9211-b4e86c285daa.png" width="35%"/>
+<img src = "https://user-images.githubusercontent.com/75755156/125728824-ded1ac68-8e0e-48ad-88d1-fe18b3a830b0.png" width="35%"/><img src = "https://user-images.githubusercontent.com/75755156/125728834-ca82792e-31c2-4689-a775-1f8371e0b023.png" width="35%"/>
 
 ## Tools
 Dialogflow
+
 Google Cloud
 
 Android Studio   
