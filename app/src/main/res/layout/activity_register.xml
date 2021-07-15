@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registertwo"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/register"
+        android:hint="비밀번호"
+        android:inputType="textNoSuggestions"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/et_name"
+        app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_id" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/btn_frontpage"
+        android:fontFamily="@font/register"
+        android:text="회원가입"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/validateButton"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/register"
+        android:hint="아이디"
+        android:inputType="textNoSuggestions"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/et_pass"
+        app:layout_constraintEnd_toStartOf="@+id/validateButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/register"
+        android:hint="이름"
+        android:inputType="textNoSuggestions"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btn_register"
+        app:layout_constraintEnd_toEndOf="@+id/et_id"
+        app:layout_constraintStart_toStartOf="@+id/et_id"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass" />
+
+    <Button
+        android:id="@+id/validateButton"
+        android:layout_width="116dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/btn_frontpage"
+        android:fontFamily="@font/register"
+        android:text="아이디중복확인"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/et_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et_id"
+        app:layout_constraintTop_toTopOf="@+id/et_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
